@@ -1,7 +1,26 @@
 aid: wavii
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wavii.png
 name: Wavii
-description: Wavii is a company surfaced as a portfolio company of battery-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Wavii was a Seattle-based startup founded in 2008 by Adrian Aoun that
+  built a news-summarization app using natural-language-processing and machine-learning
+  to convert web content (news articles and blogs) into short structured story summaries.
+  Backed by Battery Ventures, Felicis Ventures and Kapor Capital, Wavii was acquired
+  by Google in April 2013 (reported at over $30M) and immediately shut down its
+  consumer service, with the team moving to Google to work on natural-language
+  products. The company is defunct and operates no public product or API. This
+  profile was surfaced as a Battery Ventures portfolio company; the enrichment pass
+  confirmed no live developer surface exists.
 url: https://raw.githubusercontent.com/api-evangelist/wavii/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +28,30 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: google
+x-acquired-date: '2013-04'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Defunct
+- Acquired
+- News Summarization
+- Natural Language Processing
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Wikipedia
+  url: https://en.wikipedia.org/wiki/Wavii
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
