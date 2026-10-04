@@ -51,7 +51,7 @@ tags:
 - Acquired
 - News Summarization
 - Natural Language Processing
-- Machine-Learning
+- Machine Learning
 tags_raw:
 - Company
 - Defunct
@@ -59,6 +59,7 @@ tags_raw:
 - News Summarization
 - Natural Language Processing
 - Machine Learning
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
